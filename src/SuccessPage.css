@@ -1,0 +1,16 @@
+/* SuccessPage.css */
+.success-container {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin based on your preference */
+  }
+  
+  h2 {
+    color: #4caf50; /* Green color, you can customize it */
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add additional styles as needed for your content */

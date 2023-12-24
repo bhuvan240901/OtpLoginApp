@@ -1,0 +1,44 @@
+/* EnterOtpPage.css */
+body{
+    background-color: gold;
+}
+
+.otp-container {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin based on your preference */
+  }
+  
+  .otp-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .otp-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .otp-submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .otp-resend-btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .otp-submit-btn:disabled,
+  .otp-resend-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
